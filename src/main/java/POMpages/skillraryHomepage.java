@@ -9,7 +9,7 @@ public class skillraryHomepage
 {
 	//declaration
 	@FindBy(xpath="//img[@alt='SkillRary']") private WebElement logo;
-	@FindBy(name="q")private WebElement searchtf;
+	@FindBy(xpath="//input[@placeholder='Search for Courses']")private WebElement searchtf;
 	@FindBy(xpath="//input[@value='go']")private WebElement searchbutton;
 	@FindBy(xpath="//a[text()=' GEARS ']") private WebElement gears;
 	@FindBy(xpath="//ul[@class='dropdown-menu gear_menu']/descendant::a[text()=' SkillRary Demo APP']")private WebElement skillrarydemoapp;
